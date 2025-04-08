@@ -20,15 +20,18 @@ Given below are my contributions to the project.
     - Ensured compatibility with the project’s data persistence and serialization mechanisms.
 
 **New Feature: Filter Command Implementation**
-- What it does: Allows users to search for internships by filtering via allowance/duration.
+- What it does: Allows users to filter and be displayed specific internships based on their input.
 - Highlights:
+    - Enabled users to filter via allowance/duration by inputting 1/2 values.
     - Added error and exception handling to prevent incorrect formatting.
 
 **Enhancement: Existing Classes**
 - Ui Class: Implemented the Ui class along with various printing methods and formatting for user interactions.
 - Parser Class: Implemented the Parser class to process user input and execute the appropriate commands.
 - Exception Handling: Created multiple custom exception classes for improved robustness of application.
-- Testing: Added JUnit tests for add and filter to increase reliability of application.
+
+**Enhancement: Testing**
+- Added JUnit tests for `add` and `filter` that cover normal expected behaviours as well as throws the appropriate exceptions when handling unexpected user inputs.
 
 ### Documentation
 
