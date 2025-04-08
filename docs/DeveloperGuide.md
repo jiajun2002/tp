@@ -180,9 +180,9 @@ Additionally, `DeleteCommand` implements various exception handling to deal with
 ### Filtering Internship
 The `filter` command allows users to filter internships in their list by allowance/duration.
 
-Example input: ```filter\a 500 2000```
+Example input: ```filter/a 500 2000```
 #### Implementation Flow
-1. The user enters either a `filter\a` or `filter\d` command with the desired ranges.
+1. The user enters either a `filter/a` or `filter/d` command with the desired ranges.
 2. The parser receives the command and creates a new `FilterCommand` instance.
 3. Once the new instance is created, `FilterCommand.execute()` is invoked.
 4. The `execute()` method gets all internships from `InternshipsList`, loops each internship and prints it via the `Ui` class if it is within the range provided.
